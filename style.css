@@ -1,0 +1,59 @@
+/* simpel roze thema */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff0f5; /* zacht roze */
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header, footer {
+  background-color: #f8bbd0;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+h1, h2 {
+  color: #880e4f;
+}
+
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.card {
+  background: white;
+  border: 1px solid #f8bbd0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+}
+
+input, select {
+  margin-top: 5px;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #f48fb1;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-top: 15px;
+}
+.btn:hover {
+  background-color: #f06292;
+}
